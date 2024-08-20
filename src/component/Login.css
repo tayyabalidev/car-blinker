@@ -1,0 +1,64 @@
+.Login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login {
+    display: flex;
+    width: 70%;
+    max-width: 1100px;
+    background-color: #f4f4f4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.side1,
+.side2 {
+    color: #ffc800;
+    font-weight: bold;
+    flex: 1;
+    padding: 20px;
+}
+
+.side1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 70vh;
+    background-color: rgb(67, 0, 86);
+    border-radius: 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.side2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    height: 70vh;
+    border-radius: 10px;
+    /* Optional background color */
+    color: #ffc800;
+    font-weight: bold;
+    text-shadow: 0px 1px 1px black;
+}
+
+.Btn-login {
+    padding: 10px 25px;
+    text-decoration: none;
+    background-color: #ffc800;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    text-shadow: 0px 0px 1px black;
+}
+
+.Btn-login:hover {
+    background-color: #ffc800;
+    color: white;
+}

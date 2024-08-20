@@ -1,0 +1,98 @@
+.page404 {
+  background-image: url(../image/Car.jpg);
+  height: 200px;
+  color: white;
+
+}
+
+.page404 {
+  position: relative;
+}
+
+.page404::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(2, 5, 31, 0.719);
+}
+
+.page404-heading {
+  position: relative;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.page404-field {
+  border: none;
+  padding: 10px 100px 10px 5px;
+  border: 2px solid rgb(8, 27, 82);
+  border-radius: 10px;
+  outline: none;
+  margin-top: 10px;
+  align-items: center;
+  position: relative;
+}
+
+.page404-search-icon {
+  cursor: pointer;
+  position: relative;
+  left: 120px;
+  transform: translateY(-100%);
+  top: -8px;
+}
+
+.page404-img img {
+  width: 30%;
+  text-align: center;
+  align-items: center;
+}
+
+.page404-img {
+  text-align: center;
+}
+
+.page404-content {
+  align-items: center;
+  text-align: center;
+}
+
+/* .btn {
+  background-color: rgb(58, 58, 173);
+  border: none;
+  padding: 10px 25px;
+  border-radius: 10px;
+  color: white;
+  margin-left: 10px;
+  cursor: pointer;
+} */
+
+@media screen and (max-width: 425px) {
+  .page404-not {
+    font-size: 25px !important;
+  }
+
+  .page404-not-1 {
+    font-size: 12px !important;
+  }
+
+  .price-range {
+    margin-bottom: 20px;
+    width: 90%;
+  }
+
+
+}
+
+@media screen and (max-width: 320px) {
+  .page404-not {
+    font-size: 19px !important;
+  }
+
+  .page404-not-1 {
+    font-size: 9px !important;
+  }
+}
